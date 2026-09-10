@@ -3,4 +3,5 @@ y = float(input("What is y? "))
 
 z = round(x + y)
 
-print(z)
+#Formatting the output with commas for thousands    
+print(f"{z:,}")
