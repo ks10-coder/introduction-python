@@ -1,1 +1,2 @@
-print("hello, world")
+input("What's your name? ")
+print("hello,David")        
