@@ -1,4 +1,8 @@
+def hello():
+    print("hello")
+
+
 name = input("What's your name? ")
-#Showing what happens when you call an unexisting function
+#Creating a function
 hello()
 print(name)
