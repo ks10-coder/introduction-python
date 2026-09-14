@@ -1,7 +1,10 @@
-x = float(input("What is x? "))
-y = float(input("What is y? "))
+#Implementing a function that returns a value that was passed into it
+def main():
+    x=int(input("What's x?"))
+    print("x squared is", square(x))
 
-#Use f-strings to format the output to 2 decimal places
-z = round(x / y, 2)
+#Defining a function that returns the square of a number
+def square(n):
+    return n * n
 
-print(f"{z:.2f}")
+main()
