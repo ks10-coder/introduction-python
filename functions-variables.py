@@ -1,8 +1,7 @@
-def hello():
-    print("hello")
+def hello(to):
+    print("hello,", to)
 
 
 name = input("What's your name? ")
-#Creating a function
-hello()
-print(name)
+# Calling the hello function and passing the name as an argument
+hello(name)
